@@ -1,0 +1,13 @@
+---
+layout: default
+title: ModelBook
+permalink: /categories/model-book/
+---
+
+# ModelBook
+
+Här är alla inlägg i kategorin Resor:
+
+{% for post in site.categories.Resor %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
